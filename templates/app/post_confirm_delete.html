@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %} Post Home {% endblock %}
+
+{% block content %}
+<div class="container">
+  <form method='post'>
+    {% csrf_token %} 
+    
+    <h1 class="text-center mt-4 text-center" >Are you sure to delete this post</h1>
+    <button class="btn btn-danger">Delete</button>
+    <a href="{% url 'post_list' %}" class="btn btn-warning">Cancle</a>
+  </form>
+</div>
+{% endblock %}
