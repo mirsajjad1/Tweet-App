@@ -25,10 +25,10 @@ SECRET_KEY = 'django-insecure--j^2qr%7fuqvy=dbs*jm!sg7bg09!i#(lwty4h$yx8^2henj!u
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*', "post-app-s32u.onrender.com"]
+ALLOWED_HOSTS = ['*', 'post-app-s32u.onrender.com']
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://post-app-s32u.onrender.com",
+    'https://post-app-s32u.onrender.com',
 ]
 
 CSRF_COOKIE_SECURE = True
@@ -147,6 +147,7 @@ LOGIN_REDIRECT_URL = '//'
 
 
 LOGOUT_REDIRECT_URL = '/post/'
+
 
 
 
