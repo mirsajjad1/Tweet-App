@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure--j^2qr%7fuqvy=dbs*jm!sg7bg09!i#(lwty4h$yx8^2henj!u
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'superparasitic-sumiko-hammier.ngrok-free.dev']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'superparasitic-sumiko-hammier.ngrok-free.dev', 'post-app-s32u.onrender.com']
 
 
 # Application definition
@@ -135,5 +135,6 @@ JAZZMIN_UI_TWEAKS = {
 LOGIN_URL = '/accounts/login'
 
 LOGIN_REDIRECT_URL = '//'
+
 
 LOGOUT_REDIRECT_URL = '/post/'
