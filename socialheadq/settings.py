@@ -27,6 +27,15 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://post-app-s32u.onrender.com",
+]
+
+CSRF_COOKIE_SECURE = True
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SAMESITE = "Lax"
+
+
 
 # Application definition
 
@@ -138,5 +147,6 @@ LOGIN_REDIRECT_URL = '//'
 
 
 LOGOUT_REDIRECT_URL = '/post/'
+
 
 
